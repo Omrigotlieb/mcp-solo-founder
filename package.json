@@ -1,0 +1,42 @@
+{
+  "name": "mcp-solo-founder",
+  "version": "0.1.0",
+  "description": "MCP server + agent skills for running a one-person company: weekly plans, markdown CRM, investor updates, launch checklists. Local files only.",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "start": "node dist/index.js",
+    "prepare": "tsc"
+  },
+  "keywords": [
+    "mcp",
+    "claude",
+    "agent-skills",
+    "founder",
+    "crm"
+  ],
+  "author": "Omri Gotlieb (https://gutiailabs.com)",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.7"
+  },
+  "type": "module",
+  "bin": {
+    "mcp-solo-founder": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "skills"
+  ],
+  "repository": "github:Omrigotlieb/mcp-solo-founder",
+  "engines": {
+    "node": ">=18"
+  }
+}
