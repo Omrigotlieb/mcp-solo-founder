@@ -4,6 +4,8 @@
 
 **Run your one-person company from Claude Code (or any MCP client).** Weekly plans, a markdown CRM, investor update drafts and launch checklists. Everything is plain markdown on your disk. No accounts, no API keys, no cloud.
 
+![Real tool calls against mcp-solo-founder](assets/demo.png)
+
 ## Install (one line)
 
 ```bash
@@ -69,10 +71,15 @@ git clone https://github.com/Omrigotlieb/mcp-solo-founder && cp -r mcp-solo-foun
 npm install && npm run build && npm test
 ```
 
-## Related
+## More from me
 
-- [ai-skills](https://github.com/Omrigotlieb/ai-skills): CLAUDE.md and skill templates
-- [awesome-anthropic](https://github.com/Omrigotlieb/awesome-anthropic)
+- [claude-md-doctor](https://github.com/Omrigotlieb/claude-md-doctor): lint and score your CLAUDE.md out of 100
+- [founder-deck-skill](https://github.com/Omrigotlieb/founder-deck-skill): founder notes → HTML pitch deck (agent skill)
+- [awesome-claude-skills-gallery](https://github.com/Omrigotlieb/awesome-claude-skills-gallery): see what agent skills produce before installing
+- [ai-skills](https://github.com/Omrigotlieb/ai-skills): CLAUDE.md templates, skills, MCP servers and hooks
+- [awesome-anthropic](https://github.com/Omrigotlieb/awesome-anthropic): daily-updated Anthropic / Claude resources
+
+If this is useful, a ⭐ helps other people find it.
 
 Built by [Omri Gotlieb](https://github.com/Omrigotlieb). Want this without the terminal? **[Guti AI](https://gutiailabs.com)** is a calm AI workspace for solo founders.
 
